@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda3]
+@="Anaconda3 Prompt Here"
+"Icon"="C:\\Users\\hehan\\Anaconda3\\Menu\\Iconleak-Atrous-Console.ico"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda3\command]
+@="cmd.exe /s /k \"title Anaconda3\" && C:\\Users\\hehan\\Anaconda3\\Scripts\\activate.bat C:\\Users\\hehan\\Anaconda3 && activate tensorflow && jupyter notebook"
