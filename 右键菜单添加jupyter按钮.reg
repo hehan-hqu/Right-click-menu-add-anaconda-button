@@ -4,3 +4,6 @@
 "Icon"="C:\\ProgramData\\Anaconda3\\Menu\\jupyter.ico"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Jupyter\command]
 @="cmd.exe /s /k \"title Jupyter\" && C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3 && jupyter notebook"
+
+REM notepad++
+REM cmd.exe /s /k "title Anaconda3" && C:\ProgramData\Anaconda3\Scripts\activate.bat C:\ProgramData\Anaconda3 & activate tensorflow & python "$(FULL_CURRENT_PATH)" & ECHO. & PAUSE & EXIT
