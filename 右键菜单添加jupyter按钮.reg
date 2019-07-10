@@ -6,4 +6,4 @@
 @="cmd.exe /s /k \"title Jupyter\" && C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3 && jupyter notebook"
 
 REM notepad++
-REM cmd.exe /s /k "title Anaconda3" && C:\ProgramData\Anaconda3\Scripts\activate.bat C:\ProgramData\Anaconda3 & activate tensorflow & python "$(FULL_CURRENT_PATH)" & ECHO. & PAUSE & EXIT
+REM cmd.exe /s /k cd /d "$(CURRENT_DIRECTORY)" && C:\ProgramData\Anaconda3\Scripts\activate.bat C:\ProgramData\Anaconda3 & activate tensorflow & python "$(FULL_CURRENT_PATH)" & ECHO & PAUSE & EXIT
