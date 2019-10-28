@@ -1,6 +1,6 @@
 ﻿Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda3]
 @="Anaconda3 Prompt Here"
-"Icon"="C:\\ProgramData\\Anaconda3\\Menu\\Iconleak-Atrous-Console.ico"
+"Icon"="__AnacondaPath__\\Menu\\Iconleak-Atrous-Console.ico"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda3\command]
-@="cmd.exe /s /k \"title Anaconda3\" && C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3"
+@="cmd.exe /s /k \"title Anaconda3\" && __AnacondaPath__\\Scripts\\activate.bat __AnacondaPath__"
