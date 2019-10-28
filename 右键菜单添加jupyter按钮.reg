@@ -3,7 +3,7 @@
 @="Jupyter Notebook Here"
 "Icon"="__AnacondaPath__\\Menu\\jupyter.ico"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Jupyter\command]
-@="cmd.exe /s /k \"title Jupyter\" && __AnacondaPath__\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3 && jupyter notebook"
+@="cmd.exe /s /k \"title Jupyter\" && __AnacondaPath__\\Scripts\\activate.bat __AnacondaPath__ && jupyter notebook"
 
 REM notepad++
 REM cmd.exe /s /k cd /d "$(CURRENT_DIRECTORY)" && __AnacondaPath__\\Scripts\\activate.bat __AnacondaPath__ & activate __ENV__ & python "$(FULL_CURRENT_PATH)" & ECHO & PAUSE & EXIT
