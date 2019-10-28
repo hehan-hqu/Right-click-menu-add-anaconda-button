@@ -1,9 +1,9 @@
 ﻿Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Jupyter]
 @="Jupyter Notebook Here"
-"Icon"="C:\\ProgramData\\Anaconda3\\Menu\\jupyter.ico"
+"Icon"="__AnacondaPath__\\Menu\\jupyter.ico"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Jupyter\command]
-@="cmd.exe /s /k \"title Jupyter\" && C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3 && jupyter notebook"
+@="cmd.exe /s /k \"title Jupyter\" && __AnacondaPath__\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3 && jupyter notebook"
 
 REM notepad++
-REM cmd.exe /s /k cd /d "$(CURRENT_DIRECTORY)" && C:\ProgramData\Anaconda3\Scripts\activate.bat C:\ProgramData\Anaconda3 & activate tensorflow & python "$(FULL_CURRENT_PATH)" & ECHO & PAUSE & EXIT
+REM cmd.exe /s /k cd /d "$(CURRENT_DIRECTORY)" && __AnacondaPath__\\Scripts\\activate.bat __AnacondaPath__ & activate __ENV__ & python "$(FULL_CURRENT_PATH)" & ECHO & PAUSE & EXIT
