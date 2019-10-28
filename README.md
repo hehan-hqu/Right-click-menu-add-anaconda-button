@@ -5,4 +5,14 @@ you can open your anaconda prompt or jupyter notebook by one click.
 
 
 使用方法：
-在文件中代入你的anaconda路径，然后合并到你的注册列表中。
+替换 __AnacondaPath__ 为你的anaconda路径，请使用两个斜杠，例如：C:\\ProgramData\\Anaconda3
+替换 __ENV__ 为你的环境名，例如： myenv
+
+Enjoy!
+
+Usage:
+
+replace __AnacondaPath__ to your anaconda path, please use double '/', for example: C:\\ProgramData\\Anaconda3
+replace __ENV__ to your environment name, for example: myenv
+
+Enjoy!
