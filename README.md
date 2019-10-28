@@ -1,11 +1,12 @@
-# add an anaconda button to your right-click menu
-you can open your anaconda prompt or jupyter notebook by one click.
+# Add an anaconda button to your right-click menu to open anaconda prompt or jupyter notebook by one click.
 
 Usage:
 
-replace __AnacondaPath__ to your anaconda path, please use double '/', for example: C:\\ProgramData\\Anaconda3
+Replace __AnacondaPath__ to your anaconda path, please use double '/', for example: C:\\ProgramData\\Anaconda3
 
-replace __ENV__ to your environment name, for example: myenv
+Replace __ENV__ to your environment name, for example: myenv
+
+If you are using base environment, please remove '& activate __ENV__' .
 
 Enjoy!
 
@@ -15,5 +16,7 @@ Enjoy!
 替换 __AnacondaPath__ 为你的anaconda路径，请使用两个斜杠，例如：C:\\ProgramData\\Anaconda3
 
 替换 __ENV__ 为你的环境名，例如： myenv
+
+如果你使用base环境，请移除 '& activate __ENV__' 。
 
 Enjoy!
